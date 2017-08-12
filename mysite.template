@@ -1,8 +1,8 @@
 
 server {
-    listen ${NGINX_PORT};
-    server_name ${NGINX_HOST};
+    listen 80;
+    server_name hexi.pin-pin.com;
 
-    root hexi/public;
+    root /var/www/hexi/public;
 
 }
